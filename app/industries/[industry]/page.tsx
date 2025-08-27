@@ -108,7 +108,7 @@ const industryData = {
   healthcare: {
     title: "Healthcare Security Solutions",
     subtitle: "Specialized security systems for hospitals and medical facilities",
-    image: "healthcare.avif",
+    image: "/healthcare.avif",
     features: [
       "Patient area monitoring",
       "Pharmacy and drug storage security",
@@ -133,7 +133,7 @@ const industryData = {
   agriculture: {
     title: "Agricultural Security Solutions",
     subtitle: "Farm and agricultural property monitoring with specialized rural solutions",
-    image: "agriculture.avif",
+    image: "/agriculture.avif",
     features: [
       "Large area perimeter monitoring",
       "Livestock monitoring systems",
