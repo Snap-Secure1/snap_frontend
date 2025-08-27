@@ -55,31 +55,6 @@ const industryData = {
       "Remote business monitoring capabilities",
     ],
   },
-  industrial: {
-    title: "Industrial Security Solutions",
-    subtitle: "Heavy-duty security systems for manufacturing and industrial facilities",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80",
-    features: [
-      "Heavy-duty camera housings",
-      "Explosion-proof equipment options",
-      "Perimeter security systems",
-      "Integration with safety systems",
-      "High-temperature resistant components",
-      "Dust and moisture protection",
-      "Long-range monitoring capabilities",
-      "Industrial network integration",
-    ],
-    description:
-      "Protect your industrial operations with robust security solutions designed for harsh environments. Our industrial-grade systems withstand extreme conditions while providing reliable surveillance and access control for manufacturing facilities, warehouses, and processing plants.",
-    benefits: [
-      "Equipment and asset protection",
-      "Safety compliance monitoring",
-      "Perimeter breach detection",
-      "Integration with industrial controls",
-      "Hazardous area monitoring",
-      "Operational efficiency insights",
-    ],
-  },
   corporate: {
     title: "Corporate Security Solutions",
     subtitle: "Enterprise-level security systems for corporate offices and headquarters",
