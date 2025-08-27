@@ -8,7 +8,7 @@ const industryData = {
   residential: {
     title: "Residential Security Solutions",
     subtitle: "Comprehensive home security systems for modern families",
-    image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80",
+    image: "/residential.avif",
     features: [
       "Home CCTV camera systems",
       "Smart doorbell cameras",
@@ -33,7 +33,7 @@ const industryData = {
   commercial: {
     title: "Commercial Security Solutions",
     subtitle: "Professional security systems for businesses and retail establishments",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+    image: "/commercial.avif",
     features: [
       "Multi-camera surveillance systems",
       "Access control systems",
@@ -58,7 +58,7 @@ const industryData = {
   corporate: {
     title: "Corporate Security Solutions",
     subtitle: "Enterprise-level security systems for corporate offices and headquarters",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+    image: "/corporate.avif",
     features: [
       "Multi-building surveillance networks",
       "Advanced access control systems",
@@ -108,7 +108,7 @@ const industryData = {
   healthcare: {
     title: "Healthcare Security Solutions",
     subtitle: "Specialized security systems for hospitals and medical facilities",
-    image: "https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg",
+    image: "healthcare.avif",
     features: [
       "Patient area monitoring",
       "Pharmacy and drug storage security",
@@ -133,7 +133,7 @@ const industryData = {
   agriculture: {
     title: "Agricultural Security Solutions",
     subtitle: "Farm and agricultural property monitoring with specialized rural solutions",
-    image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80",
+    image: "agriculture.avif",
     features: [
       "Large area perimeter monitoring",
       "Livestock monitoring systems",
