@@ -83,7 +83,7 @@ const industryData = {
   educational: {
     title: "Educational Security Solutions",
     subtitle: "Safe and secure environments for schools and educational institutions",
-    image: "/educational_institute.jpg",
+    image: "/educational_institute.avif",
     features: [
       "Classroom and hallway monitoring",
       "Playground and outdoor area coverage",
