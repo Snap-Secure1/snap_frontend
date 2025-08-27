@@ -65,11 +65,6 @@ const industryData = {
     subtitle: "Professional security systems for businesses and retail establishments",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=400&q=80",
   },
-  industrial: {
-    title: "Industrial Security Solutions",
-    subtitle: "Heavy-duty security systems for manufacturing and industrial facilities",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=400&q=80",
-  },
   corporate: {
     title: "Corporate Security Solutions",
     subtitle: "Enterprise-level security systems for corporate offices and headquarters",
@@ -109,7 +104,6 @@ export default function SnapSecurePage() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" })
   }
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     console.log("[DEBUG] handleSubmit called")
@@ -191,6 +185,10 @@ export default function SnapSecurePage() {
     }
   }
   
+    
+  
+  
+
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -441,21 +439,22 @@ export default function SnapSecurePage() {
               Tailored security solutions for every sector and property type
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {Object.entries(industryData).map(([key, industry]) => (
               <Link key={key} href={`/industries/${key}`}>
                 <Card className="overflow-hidden hover:shadow-lg transition-all duration-300 cursor-pointer group h-full">
-                  <div className="aspect-square">
+                  <div className="aspect-video relative">
                     <img
                       src={industry.image || "/placeholder.svg"}
                       alt={industry.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  <CardContent className="p-4 text-center">
-                    <h3 className="font-semibold text-sm group-hover:text-blue-600 transition-colors">
-                      {industry.title.replace(" Security Solutions", "")}
+                  <CardContent className="p-6">
+                    <h3 className="text-lg font-semibold mb-2 group-hover:text-blue-600 transition-colors">
+                      {industry.title}
                     </h3>
+                    <p className="text-muted-foreground text-sm">{industry.subtitle}</p>
                   </CardContent>
                 </Card>
               </Link>
