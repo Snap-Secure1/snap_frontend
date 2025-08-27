@@ -15,12 +15,12 @@ const serviceData = {
   cctv: {
     title: "CCTV Installation & Services",
     subtitle: "Professional high-definition security camera systems with advanced monitoring capabilities",
-    image: "/cctv_installation.jpg",
+    image: "/cctv_installation.avif",
   },
   networking: {
     title: "Network Infrastructure",
     subtitle: "Complete networking solutions for secure and reliable connectivity",
-    image: "/network_infrastructure.jpg",
+    image: "/network_infrastructure.avif",
   },
   laptop: {
     title: "Computer Sales & Services",
@@ -30,27 +30,27 @@ const serviceData = {
   drone: {
     title: "Drone Camera Solutions",
     subtitle: "Advanced aerial surveillance and monitoring with professional drone systems",
-    image: "/drone_service.jpg",
+    image: "/drone_service.avif",
   },
   biometric: {
     title: "Biometric Access Control",
     subtitle: "Advanced biometric security systems for secure access management",
-    image: "/biometric.jpg",
+    image: "/biometric.avif",
   },
   wireless: {
     title: "Wireless CCTV Systems",
     subtitle: "Cable-free security installations with advanced wireless technology",
-    image: "/wireless_cctv.jpg",
+    image: "/wireless_cctv.avif",
   },
   solar: {
     title: "Solar-Powered CCTV",
     subtitle: "Eco-friendly surveillance systems powered by renewable solar energy",
-    image: "/solarpanel_cctv.jpg",
+    image: "/solarpanel_cctv.avif",
   },
   maintenance: {
     title: "Maintenance & Support",
     subtitle: "Comprehensive maintenance packages with ongoing technical support",
-    image: "/maintenance_and_support.jpg",
+    image: "/maintenance_and_support.avif",
   },
 }
 
@@ -73,7 +73,7 @@ const industryData = {
   educational: {
     title: "Educational Security Solutions",
     subtitle: "Safe and secure environments for schools and educational institutions",
-    image: "/educational_institute.jpg",
+    image: "/educational_institute.avif",
   },
   healthcare: {
     title: "Healthcare Security Solutions",
