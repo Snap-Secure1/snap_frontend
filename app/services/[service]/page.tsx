@@ -9,7 +9,7 @@
     cctv: {
       title: "CCTV Installation & Services",
       subtitle: "Professional high-definition security camera systems with advanced monitoring capabilities",
-      image: "/cctv_installation.jpg",
+      image: "/cctv_installation.avif",
       features: [
         "4K Ultra HD camera systems",
         "Night vision and infrared capabilities",
@@ -28,7 +28,7 @@
     networking: {
       title: "Network Infrastructure",
       subtitle: "Complete networking solutions for secure and reliable connectivity",
-      image: "/network_infrastructure.jpg",
+      image: "/network_infrastructure.avif",
       features: [
         "LAN and WAN network design",
         "Router and switch configuration",
@@ -64,7 +64,7 @@
     drone: {
       title: "Drone Camera Solutions",
       subtitle: "Advanced aerial surveillance and monitoring with professional drone systems",
-      image: "/drone_service.jpg",
+      image: "/drone_service.avif",
       features: [
         "4K aerial camera systems",
         "GPS tracking and navigation",
@@ -82,7 +82,7 @@
     biometric: {
       title: "Biometric Access Control",
       subtitle: "Advanced biometric security systems for secure access management",
-      image: "/biometric.jpg",
+      image: "/biometric.avif",
       features: [
         "Fingerprint recognition systems",
         "Facial recognition technology",
@@ -99,7 +99,7 @@
     wireless: {
       title: "Wireless CCTV Systems",
       subtitle: "Cable-free security installations with advanced wireless technology",
-      image: "/wireless_cctv.jpg",
+      image: "/wireless_cctv.avif",
       features: [
         "WiFi-enabled camera systems",
         "Battery-powered options available",
@@ -117,7 +117,7 @@
     solar: {
       title: "Solar-Powered CCTV",
       subtitle: "Eco-friendly surveillance systems powered by renewable solar energy",
-      image: "/solarpanel_cctv.jpg",
+      image: "/solarpanel_cctv.avif",
       features: [
         "Solar panel power systems",
         "Battery backup for 24/7 operation",
@@ -135,7 +135,7 @@
     maintenance: {
       title: "Maintenance & Support",
       subtitle: "Comprehensive maintenance packages with ongoing technical support",
-      image: "/maintenance_and_support.jpg",
+      image: "/maintenance_and_support.avif",
       features: [
         "Regular system health checks",
         "Preventive maintenance schedules",
