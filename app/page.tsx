@@ -112,38 +112,85 @@ export default function SnapSecurePage() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
+    console.log("[DEBUG] handleSubmit called")
+    const form = e.currentTarget;
+    console.log("[debug] checking : ", form)
     const formData = new FormData(e.currentTarget)
+
+    console.log("[DEBUG] formData captured:", formData)
     const data = {
       name: formData.get("name"),
       email: formData.get("email"),
       phone_number: formData.get("phone"),
       message: formData.get("message"),
     }
-
+    console.log("[DEBUG] data object prepared:", data)
+  
+    if (!data.name || !data.email || !data.phone_number) {
+      console.log("[DEBUG] Missing required fields")
+      alert("Please fill in all required fields")
+      return
+    }
+  
     setIsSubmitting(true)
-
+    console.log("[DEBUG] setIsSubmitting(true)")
+  
     try {
+      console.log("[DEBUG] Sending fetch request...")
       const response = await fetch("https://snapsecure-backend-hj6p.onrender.com/enquiry", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json",
         },
         body: JSON.stringify(data),
       })
-
-      if (!response.ok) throw new Error("Failed to send enquiry")
-
+      console.log("[DEBUG] fetch completed, response:", response)
+  
+      const text = await response.text()
+      console.log("[DEBUG] response text:", text)
+  
+      if (!response.ok) {
+        console.log("[DEBUG] response.ok is false")
+        throw new Error(`Server responded with ${response.status}: ${text}`)
+      }
+  
+      let responseData: any = { message: "Enquiry submitted successfully" }
+      try {
+        if (text) {
+          responseData = JSON.parse(text)
+          console.log("[DEBUG] JSON parsed successfully:", responseData)
+        } else {
+          console.log("[DEBUG] Empty response text, using default message")
+        }
+      } catch (parseError) {
+        console.warn("[DEBUG] JSON parse failed, using text:", text, parseError)
+        responseData = { message: text || "Enquiry submitted successfully" }
+      }
+  
+      console.log("[DEBUG] Success responseData:", responseData)
+  
+      // ✅ Use captured form reference
+      console.log("[DEBUG] About to reset form:", form)
+      form.reset()
+      console.log("[DEBUG] Form reset successful")
+  
       setShowSuccess(true)
-      e.currentTarget.reset()
-      setTimeout(() => setShowSuccess(false), 5000)
+      console.log("[DEBUG] showSuccess set to true")
+      setTimeout(() => {
+        setShowSuccess(false)
+        console.log("[DEBUG] showSuccess reset to false after timeout")
+      }, 5000)
+  
     } catch (error) {
-      console.error("Error submitting enquiry:", error)
+      console.error("[DEBUG] Error submitting enquiry:", error)
       alert("Error: Please try again.")
     } finally {
       setIsSubmitting(false)
+      console.log("[DEBUG] setIsSubmitting(false)")
     }
   }
-
+  
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
