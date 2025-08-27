@@ -71,7 +71,7 @@ export default function Navigation({ currentPath = "/" }: NavigationProps) {
           <Link href="/" className="flex items-center gap-3" aria-label="SnapSecure Technologies - Go to homepage">
             <div className="w-10 h-10 rounded-lg overflow-hidden">
               <Image
-                src="/logo.jpeg"
+                src="/logo.webp"
                 alt="SnapSecure Technologies Logo"
                 width={40}
                 height={40}
