@@ -20,7 +20,6 @@ const serviceData = {
 const industryData = {
   residential: "Residential",
   commercial: "Commercial",
-  industrial: "Industrial",
   corporate: "Corporate",
   educational: "Educational",
   healthcare: "Healthcare",
