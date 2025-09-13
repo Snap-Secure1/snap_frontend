@@ -149,7 +149,7 @@ export default function Navigation({ currentPath = "/" }: NavigationProps) {
               Contact
             </button>
             <Button
-              onClick={() => scrollToSection("contact")}
+              onClick={() => scrollToSection("contact-us")}
               className="bg-gradient-to-r from-blue-600 to-emerald-500 hover:from-blue-700 hover:to-emerald-600 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
               aria-label="Get quote - navigate to contact form"
             >
