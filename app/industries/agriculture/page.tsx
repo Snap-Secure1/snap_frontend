@@ -134,7 +134,7 @@ export default function AgriculturePage() {
               <p className="text-muted-foreground mb-6">
                 Contact us for a customized security assessment and quote tailored to your agriculture needs.
               </p>
-              <Link href="/#contact">
+              <Link href="/#contact-us">
                 <Button className="w-full bg-gradient-to-r from-blue-600 to-emerald-500 hover:from-blue-700 hover:to-emerald-600">
                   Get Free Consultation
                 </Button>
