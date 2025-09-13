@@ -48,8 +48,8 @@ const relatedIndustries = [
 ]
 
 export const metadata = {
-  title: `${industryData.title} - SnapSecure Technologies`,
-  description: `${industryData.subtitle} Professional security solutions in Hyderabad with expert installation and 24/7 support.`,
+  title: ` Corporate Security Solutions – Snapsecure Technologies `,
+  description: `Protect your workplace with reliable corporate security solutions. Advanced CCTV, access control & monitoring systems for offices & enterprises.`,
 }
 
 export default function CorporatePage() {

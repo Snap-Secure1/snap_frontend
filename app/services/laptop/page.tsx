@@ -5,8 +5,9 @@ import Navigation from "@/components/navigation"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Computer Sales & Services - SnapSecure Technologies",
-  description: "New systems, repair, software setup, data recovery, and optimization for laptops and desktops.",
+  title: "Best Computer Repair & Sale Services in Miyapur, Hyderabad",
+  description: "Best Computer Repair & Sale Services in Miyapur, Hyderabad. Expert repairs, quality systems & affordable solutions for homes, offices & businesses. ",
+  keywords : "Best Computer Repair & Sales Services in Hyderabad, Computer Repair Services in Hyderabad, Computer Repair in Hyderabad, Computer Repair Near Me in Hyderabad, Computer Sales Services in Hyderabad, Computer Sales in Hyderabad, Computer Sales Near Me in Hyderabad .",
 }
 
 const data = {

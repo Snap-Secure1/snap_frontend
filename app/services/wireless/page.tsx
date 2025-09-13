@@ -5,8 +5,9 @@ import Navigation from "@/components/navigation"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Wireless CCTV Systems - SnapSecure Technologies",
-  description: "Cable-free security camera installations with mobile apps, cloud storage, and remote management.",
+  title: "Best Wireless CCTV Installation in Miyapur, Hyderabad ",
+  description: "Best Wireless CCTV Installation in Miyapur, Hyderabad. Secure your home & office with advanced, reliable & affordable surveillance solutions. ",
+  keywords: "Best Wireless CCTV Installation in Hyderabad, Wireless CCTV Installation in Hyderabad, Wireless CCTV Installation Services in Hyderabad, Wireless CCTV Installation Near Me in Hyderabad, Wireless CCTV Installation Services Near Me in Hyderabad.",
 }
 
 const data = {

@@ -5,8 +5,9 @@ import Navigation from "@/components/navigation"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Network Infrastructure - SnapSecure Technologies",
-  description: "Secure and reliable LAN/WAN, WiFi, VPN, and firewall solutions with monitoring and support.",
+  title: "Best Networking Services in Miyapur, Hyderabad",
+  description: "Get the Best Networking Services in Miyapur, Hyderabad. Reliable, fast & secure network solutions for homes, offices & businesses at affordable prices. ",
+  keywords: "Networking Services in Hyderabad, Networking in Hyderabad Networking Services Near Me in Hyderabad, Computer Networking Services Hyderabad, Online Shopping Routers Hyderabad, Printers in Hyderabad, Home Delivery Hyderabad, Computer Store Online Hyderabad, access points, computer components, webcams in Hyderabad, wireless keyboards Hyderabad. ",
 }
 
 const data = {

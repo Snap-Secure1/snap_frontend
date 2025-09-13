@@ -48,8 +48,8 @@ const relatedIndustries = [
 ]
 
 export const metadata = {
-  title: `${industryData.title} - SnapSecure Technologies`,
-  description: `${industryData.subtitle} Professional security solutions in Hyderabad with expert installation and 24/7 support.`,
+  title: `Residential Security Solutions – Snapsecure Technologies `,
+  description: `Protect your home with reliable residential security solutions. Advanced CCTV, alarms & access control for complete safety & peace of mind. `,
 }
 
 export default function ResidentialPage() {

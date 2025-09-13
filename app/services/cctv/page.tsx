@@ -5,10 +5,11 @@ import Navigation from "@/components/navigation"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "CCTV Installation & Services - SnapSecure Technologies",
+  title: "Best CCTV Installation Services In Miyapur, Hyderabad ",
   description:
-    "Professional high-definition CCTV camera systems with remote monitoring, motion alerts, and 24/7 support.",
-}
+    "Get professional CCTV Installation Services in Miyapur, Hyderabad. Ensure safety with reliable, high-quality surveillance solutions for home & business.",
+  Keywords: "CCTV Installation In Hyderabad, CCTV Installation Near Me Hyderabad, CCTV Installation In Miyapur, CCTV Installation In Telangana, CCTV Installation In Andhra Pradesh, Security Camera Installation In Hyderabad, CCTV Setup Services In Hyderabad, CCTV Installers In Hyderabad, Home CCTV Installation In Hyderabad, Office CCTV Installation In Hyderabad, Best CCTV Service In Hyderabad, Budget CCTV Installation In Hyderabad, Quality CCTV Installation In Hyderabad, CCTV Installation Services Hyderabad, CCTV Installation Services In Hyderabad, CCTV Installation Services In Miyapur, CCTV Installation Near Me In Hyderabad, CCTV Camera Installation In Hyderabad, CCTV Camera Installation Services Hyderabad, CCTV Camera Installation Services Hyderabad Telangana, CCTV Camera Installation Services In Hyderabad, CCTV Installation Cost In Hyderabad, Camera Installation Hyderabad, Security Camera Installation Hyderabad .",
+  }
 
 const data = {
   slug: "cctv",

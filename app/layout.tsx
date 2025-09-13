@@ -11,10 +11,10 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "SnapSecure Technologies - Advanced Security Solutions",
+  title: "Best CCTV Installation in Miyapur, Hyderabad ",
   description:
-    "SnapSecure Technologies: Leading CCTV installation, security cameras & networking solutions in Hyderabad. 24/7 monitoring, HD quality, expert service.",
-  keywords: "CCTV installation, security cameras, networking, Hyderabad, surveillance systems",
+    "Best CCTV Installation in Miyapur, Hyderabad. Secure your home & office with expert, reliable & affordable surveillance solutions for complete safety. ",
+  keywords: "CCTV Installation In Hyderabad, CCTV Installation Near Me Hyderabad, CCTV Installation In Miyapur, CCTV Installation In Telangana, CCTV Installation In Andhra Pradesh, Security Camera Installation In Hyderabad, CCTV Setup Services In Hyderabad, CCTV Installers In Hyderabad, Home CCTV Installation In Hyderabad, Office CCTV Installation In Hyderabad, Best CCTV Service In Hyderabad, Budget CCTV Installation In Hyderabad, Quality CCTV Installation In Hyderabad, CCTV Installation Services Hyderabad, CCTV Installation Services In Hyderabad, CCTV Installation Services In Miyapur, CCTV Installation Near Me In Hyderabad, CCTV Camera Installation In Hyderabad, CCTV Camera Installation Services Hyderabad, CCTV Camera Installation Services Hyderabad Telangana, CCTV Camera Installation Services In Hyderabad, CCTV Installation Cost In Hyderabad, Camera Installation Hyderabad, Security Camera Installation Hyderabad ",
   alternates: {
     canonical: "https://snapsecuretechnologies.com/",
   },

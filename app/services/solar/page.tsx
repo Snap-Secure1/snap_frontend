@@ -5,8 +5,9 @@ import Navigation from "@/components/navigation"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Solar-Powered CCTV - SnapSecure Technologies",
-  description: "Eco-friendly, continuous surveillance with solar panels, battery backup, and wireless connectivity.",
+  title: "Best Solar-Powered CCTV Installation in Miyapur, Hyderabad ",
+  description: "Best Solar-Powered CCTV Installation in Hyderabad. Go green with reliable, cost-effective & sustainable security solutions for homes & businesses. ",
+  keywords: "Best Solar-Powered CCTV Installation in Hyderabad, Solar-Powered CCTV Installation in Hyderabad, Solar-Powered CCTV Installation Services in Hyderabad, Solar-Powered CCTV Installation Near Me in Hyderabad, Solar-Powered CCTV Installation Services Near Me in Hyderabad .",
 }
 
 const data = {

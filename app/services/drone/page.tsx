@@ -5,8 +5,9 @@ import Navigation from "@/components/navigation"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Drone Camera Solutions - SnapSecure Technologies",
-  description: "Aerial surveillance with GPS-enabled 4K drones, live streaming, patrol routes, and analytics.",
+  title: "Best Drone Camera Services in Miyapur, Hyderabad ",
+  description: "Best Drone Camera Services in Miyapur, Hyderabad. Get stunning aerial photography & videography with expert, reliable & affordable solutions. ",
+  keywords: "Best Drone Camera Services in Hyderabad, Drone Camera Services in Hyderabad, Drone Camera in Hyderabad, Buy Drone Camera in Hyderabad, Drone Camera Services Near Me in Hyderabad, Buy Drone Camera Near Me in Hyderabad .",
 }
 
 const data = {

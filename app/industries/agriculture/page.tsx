@@ -48,8 +48,8 @@ const relatedIndustries = [
 ]
 
 export const metadata = {
-  title: `${industryData.title} - SnapSecure Technologies`,
-  description: `${industryData.subtitle} Professional security solutions in Hyderabad with expert installation and 24/7 support.`,
+  title: `Agricultural Security Solutions – Snapsecure Technologies `,
+  description: `Secure farms & agricultural assets with advanced agricultural security solutions. CCTV, access control & monitoring for safe, protected operations.`,
 }
 
 export default function AgriculturePage() {

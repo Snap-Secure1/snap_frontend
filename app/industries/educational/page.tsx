@@ -48,8 +48,8 @@ const relatedIndustries = [
 ]
 
 export const metadata = {
-  title: `${industryData.title} - SnapSecure Technologies`,
-  description: `${industryData.subtitle} Professional security solutions in Hyderabad with expert installation and 24/7 support.`,
+  title: `Educational Security Solutions – Snapsecure Technologies `,
+  description: `Ensure safety in schools & colleges with advanced educational security solutions. CCTV, access control & monitoring for a secure learning environment. `,
 }
 
 export default function EducationalPage() {

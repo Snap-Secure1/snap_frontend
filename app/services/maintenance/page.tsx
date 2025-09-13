@@ -5,8 +5,9 @@ import Navigation from "@/components/navigation"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Maintenance & Support - SnapSecure Technologies",
-  description: "Preventive maintenance, upgrades, emergency repairs, and 24/7 support to keep systems reliable.",
+  title: "Best Maintenance & Support Services in Hyderabad",
+  description: "Get the Best Maintenance & Support Services in Hyderabad. Reliable, affordable & expert solutions to keep your systems running smoothly & efficiently. ",
+  keywords: "Best Maintenance & Support Services in Hyderabad, Maintenance & Support Services in Hyderabad, Maintenance & Support in Hyderabad, Maintenance & Support Services Near Me in Hyderabad, Maintenance & Support Near Me in Hyderabad ",
 }
 
 const data = {
