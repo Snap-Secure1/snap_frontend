@@ -117,7 +117,7 @@ export default function Page() {
               <p className="text-muted-foreground mb-6">
                 Interested in this service? Contact us for a free consultation and customized quote.
               </p>
-              <Link href="/#contact">
+              <Link href="/#contact-us">
                 <Button className="w-full bg-gradient-to-r from-blue-600 to-emerald-500 hover:from-blue-700 hover:to-emerald-600">
                   Get Free Quote
                 </Button>
