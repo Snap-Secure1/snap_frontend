@@ -7,7 +7,7 @@ import Link from "next/link"
 export const metadata: Metadata = {
   title: "Biometric Door Access Control Services In Miyapur, Hyderabad ",
   description: "Experience the Best Biometric Door Access Control Services In Miyapur, Hyderabad. Smart, secure & trusted access control solutions for homes and businesses. ",
-  keywords :"Biometric Installation Services in Hyderabad, Biometric Installation in Hyderabad, Biometric Installation Service in Hyderabad, Biometric Installation Company in Hyderabad, Biometric Installation Near Me in Hyderabad, Best Biometric Installation in Hyderabad, Biometric Attendance System Installation in Hyderabad, Biometric Door Access Control Services In Hyderabad, Biometric Door Access Control in Hyderabad, Biometric Door Access Control Near Me in Hyderabad ",
+  keywords :"Biometric Installation Services in Hyderabad, Biometric Installation in Hyderabad, Biometric Installation Service in Hyderabad, Biometric Installation Company in Hyderabad, Biometric Installation Near Me in Hyderabad, Best Biometric Installation in Hyderabad, Biometric Attendance System Installation in Hyderabad, Biometric Door Access Control Services In Hyderabad, Biometric Door Access Control in Hyderabad, Biometric Door Access Control Near Me in Hyderabad",
 }
 
 const data = {
