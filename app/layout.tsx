@@ -185,7 +185,7 @@ export default function RootLayout({
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-9TH84MYC1E"
         ></script>
-        <script
+        <script>
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -194,14 +194,14 @@ export default function RootLayout({
               gtag('config', 'G-9TH84MYC1E');
             `,
           }}
-        />
+        </script>
 
          {/* ✅ New Google Analytics (G-FXJMF5FYY3) */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-FXJMF5FYY3"
         ></script>
-        <script
+        <script>
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
@@ -210,7 +210,23 @@ export default function RootLayout({
               gtag('config', 'G-FXJMF5FYY3');
             `,
           }}
-        />
+        </script>
+
+        {/* ✅ New Google Analytics (G-FXJMF5FYY3) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-9R1P89B9LL"
+        ></script>
+        <script>
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-9R1P89B9LL');
+            `,
+          }}
+        </script>
 
         {/* ✅ Google Tag Manager */}
         <script
